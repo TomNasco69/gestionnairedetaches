@@ -1,0 +1,37 @@
+.Parents {
+    text-align: center;
+    margin: 100px;
+}
+h1{
+    margin-bottom: 100px;
+}
+
+#tasklist {
+
+    background-color:gray;
+    opacity: 50%;
+    border-radius: 5px;
+
+}
+
+#button {
+ 
+ display: inline-block;
+ outline: none;
+ cursor: pointer;
+ font-size: 14px;
+ padding: 0 12px;
+ line-height: 20px;
+ height: 30px;
+ max-height: 30px;
+ background: #fff;
+ font-weight: 700;
+ border: 2px solid #DAE3F3;
+ border-radius: 0;
+ color: #272C34;
+ transition-timing-function: ease-in-out;
+ transition-property: box-shadow;
+ transition-duration: 150ms;
+ :hover {
+     box-shadow: 0 2px 2px rgb(39 44 52 / 12%);
+ }
